@@ -18,8 +18,8 @@ const DEFAULT_TIMEOUT = 10000; // 默认请求超时时间（毫秒）
 const SCRIPT_FILE_NAME = 'jewels.js'; // 当前脚本文件名
 // 更新服务器列表
 const UPDATE_SERVERS = [
-  { url: 'https://gitee.com/api/v5/repos/ikucao/lx-music-sources/contents/' + SCRIPT_FILE_NAME },
-  { url: 'https://raw.githubusercontent.com/ikucao/lx-music-sources/main/' + SCRIPT_FILE_NAME }
+  { url: 'https://gitee.com/api/v5/repos/klejnoty/musicsource/contents/' + SCRIPT_FILE_NAME },
+  { url: 'https://raw.githubusercontent.com/klejnoty/musicsource/main/' + SCRIPT_FILE_NAME }
 ];
 
 // 标准音质映射表
