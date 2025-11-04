@@ -22,7 +22,7 @@ const API_SRCS = Object.freeze([
   {id:1,url:'http://103.217.184.26:9000',key:'',name:'ikun公益源',active:true,urlFormat:'query',scriptMd5:'d7ada446a9e88d178efd7e02dc5f9879'},
   {id:2,url:'https://88.lxmusic.xn--fiqs8s',key:'lxmusic',name:'洛雪音乐(备用源)',active:true,urlFormat:'path',scriptMd5:'83b9ef5707ef3d8aadddc07749529594'},
   {id:3,url:'https://m-api.ceseet.me',key:'',name:'fish_music',active:true,urlFormat:'path',scriptMd5:'5fe365644241ca1b6a0f7ae4e333cf52'},
-  {id:4,url:'https://api.v2.sukimon.me:19742',key:'LXMusic_dmsowplaeq',name:'音乐服务API',active:true,urlFormat:'path',scriptMd5:'55cecf4289b2852322a81d7ed7fe4cd9'}
+  {id: 4, url: 'https://lxmusicapi.onrender.com', key: 'share-v2', name: 'Huibq_lxmusic源', active: true, urlFormat: 'path', scriptMd5: ''}
 ]);
 
 // 全局变量
@@ -217,4 +217,5 @@ on(EVENT_NAMES.request, async (e) => {
 });
 
 // 启动
+
 init().catch(() => {});
