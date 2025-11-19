@@ -39,10 +39,15 @@
       "scriptMd5": "55cecf4289b2852322a81d7ed7fe4cd9"
     }
   ],
-  "backupApis": [
-    "https://music-api.gdstudio.xyz/api.php",
-    "https://music-dl.sayqz.com/api/",
-
+  "backupApiUrls": [
+    {
+      "url": "https://music-dl.sayqz.com/api/",
+      "active": true
+    },
+    {
+      "url": "https://music-api.gdstudio.xyz/api.php",
+      "active": true
+    }
   ],
   "configSettings": {
     "enableRemoteConfig": true,
